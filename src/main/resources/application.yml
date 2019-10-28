@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: author-service
+server:
+  port: 8081
+author:
+  token:
+    user:
+      secret: anthor123456
+  ValidityInMilliseconds: 1000*60*30
